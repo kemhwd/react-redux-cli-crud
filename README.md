@@ -4,31 +4,23 @@
 
 Dependencies:
 ```
-react
-react-redux
-react-router
-react-sexy-table
-react-s-alert
+npm install --save react react-redux react-router react-sexy-table react-s-alert
 ```
 
 Installation:  
 ```
 npm install -g react-redux-cli-crud-generator
-
-if permission denied 
-
-sudo npm install -g react-redux-cli-crud-generator
 ```
 
 Usage:  
 ```
 On you command line type without $
 
-$v-crud -d ~/directory_destination ModueNameShouldStudly
+$ v-crud -d ~/directory_destination ModueNameShouldStudly
 
 OR 
 
-$v-crud --dirdest ~/directory_destination ModueNameShouldStudly
+$ v-crud --dirdest ~/directory_destination ModueNameShouldStudly
 ```
 
 Result:
@@ -36,16 +28,16 @@ Result:
 directory_destination
 	-moduenameshouldstudly
 		-actions
-			->index.js
+			->index.jsx
 		-components
-            ->List.js
-            ->Form.js
+            ->List.jsx
+            ->Form.jsx
 		-containers
-			->ModueNameShouldStudly.js
+			->ModueNameShouldStudly.jsx
 		-reducers
-			->index.js
-		->routes.js
-		->constants.js
+			->index.jsx
+		->routes.jsx
+		->constants.jsx
 
 ```
 
