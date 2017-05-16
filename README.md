@@ -1,5 +1,7 @@
 # REACT REDUX CLI CRUD GENERATOR
 
+Forked from detorresvc/react-redux-cli-crud
+
 ## How to start
 
 Dependencies:
@@ -9,7 +11,7 @@ npm install --save react react-redux react-router react-sexy-table react-s-alert
 
 Installation:  
 ```
-npm install -g react-redux-cli-crud-generator
+npm install -g https://github.com/kemhwd/react-redux-cli-crud
 ```
 
 Usage:  
