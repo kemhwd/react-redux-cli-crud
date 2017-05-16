@@ -136,10 +136,10 @@ program
                     
                 var output = Mustache.render(containerTemplate, containerData);             
 
-                fs.writeFileSync(program.dirdest+'/'+mod+'/containers/'+containerData.moduleNameOrig+".js", output);
+                fs.writeFileSync(program.dirdest+'/'+mod+'/containers/'+containerData.moduleNameOrig+".jsx", output);
 
-                if(fs.existsSync(program.dirdest+'/'+mod+'/containers/'+containerData.moduleNameOrig+".js")){
-                  resolve(program.dirdest+'/'+mod+'/containers'+containerData.moduleNameOrig+".js")
+                if(fs.existsSync(program.dirdest+'/'+mod+'/containers/'+containerData.moduleNameOrig+".jsx")){
+                  resolve(program.dirdest+'/'+mod+'/containers'+containerData.moduleNameOrig+".jsx")
                 }
                 else{
                   reject('container didnt created')
@@ -158,10 +158,10 @@ program
                     
                 var output = Mustache.render(containerTemplate, containerData);             
 
-                fs.writeFileSync(program.dirdest+'/'+mod+'/reducers/index.js', output);
+                fs.writeFileSync(program.dirdest+'/'+mod+'/reducers/index.jsx', output);
 
-                if(fs.existsSync(program.dirdest+'/'+mod+'/reducers/index.js')){
-                  resolve(program.dirdest+'/'+mod+'/reducers/index.js')
+                if(fs.existsSync(program.dirdest+'/'+mod+'/reducers/index.jsx')){
+                  resolve(program.dirdest+'/'+mod+'/reducers/index.jsx')
                 }
                 else{
                   reject('reducer didnt created')
@@ -180,10 +180,10 @@ program
                     
                 var output = Mustache.render(containerTemplate, containerData);  
                     
-                fs.writeFileSync(program.dirdest+'/'+mod+'/actions/index.js',output);
+                fs.writeFileSync(program.dirdest+'/'+mod+'/actions/index.jsx',output);
 
-                if(fs.existsSync(program.dirdest+'/'+mod+'/actions/index.js')){
-                  resolve(program.dirdest+'/'+mod+'/actions/index.js')
+                if(fs.existsSync(program.dirdest+'/'+mod+'/actions/index.jsx')){
+                  resolve(program.dirdest+'/'+mod+'/actions/index.jsx')
                 }
                 else{
                   reject('actions didnt created')
@@ -201,10 +201,10 @@ program
                     
                 var output = Mustache.render(formTemplate, containerData);  
                     
-                fs.writeFileSync(program.dirdest+'/'+mod+'/components/Form.js',output);
+                fs.writeFileSync(program.dirdest+'/'+mod+'/components/Form.jsx',output);
 
-                if(fs.existsSync(program.dirdest+'/'+mod+'/components/Form.js')){
-                  resolve(program.dirdest+'/'+mod+'/components/Form.js')
+                if(fs.existsSync(program.dirdest+'/'+mod+'/components/Form.jsx')){
+                  resolve(program.dirdest+'/'+mod+'/components/Form.jsx')
                 }
                 else{
                   reject('form didnt created')
@@ -222,10 +222,10 @@ program
                     
                 var output = Mustache.render(listTemplate, containerData);  
                     
-                fs.writeFileSync(program.dirdest+'/'+mod+'/components/List.js',output);
+                fs.writeFileSync(program.dirdest+'/'+mod+'/components/List.jsx',output);
 
-                if(fs.existsSync(program.dirdest+'/'+mod+'/components/List.js')){
-                  resolve(program.dirdest+'/'+mod+'/components/List.js')
+                if(fs.existsSync(program.dirdest+'/'+mod+'/components/List.jsx')){
+                  resolve(program.dirdest+'/'+mod+'/components/List.jsx')
                 }
                 else{
                   reject('form didnt created')
@@ -243,10 +243,10 @@ program
                   
               var output = Mustache.render(constantsTemplate, containerData); 
 
-              fs.writeFileSync(program.dirdest+'/'+mod+'/constants/index.js', output);
+              fs.writeFileSync(program.dirdest+'/'+mod+'/constants/index.jsx', output);
 
-              if(fs.existsSync(program.dirdest+'/'+mod+'/constants/index.js')){
-                resolve(program.dirdest+'/'+mod+'/constants/index.js')
+              if(fs.existsSync(program.dirdest+'/'+mod+'/constants/index.jsx')){
+                resolve(program.dirdest+'/'+mod+'/constants/index.jsx')
               }
               else{
                 reject('constants didnt created')
@@ -261,10 +261,10 @@ program
                 
             var output = Mustache.render(routesTemplate, containerData);             
 
-            fs.writeFileSync(program.dirdest+'/'+mod+'/routes.js', output);
+            fs.writeFileSync(program.dirdest+'/'+mod+'/routes.jsx', output);
 
-            if(fs.existsSync(program.dirdest+'/'+mod+'/routes.js')){
-              resolve(program.dirdest+'/'+mod+'/routes.js')
+            if(fs.existsSync(program.dirdest+'/'+mod+'/routes.jsx')){
+              resolve(program.dirdest+'/'+mod+'/routes.jsx')
             }
             else{
               reject('routes didnt created')
